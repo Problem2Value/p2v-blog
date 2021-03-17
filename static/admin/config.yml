@@ -18,7 +18,7 @@ collections:
     preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', date_format: 'MMM YYYY' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Teaser', name: 'teaser', widget: 'string' }
       - { label: "Featured Image", name: 'thumbnail', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
