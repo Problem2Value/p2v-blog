@@ -4,18 +4,41 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+logo_url: static/img/p2vLogo-300.svg
 
 collections:
   - name: 'blog'
     label: 'Blog'
+    label_singular: 'Article'
     folder: 'content/blog'
     format: 'frontmatter'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{year}}-{{month}}-{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', date_format: 'MMM YYYY' }
+      - { label: 'Teaser', name: 'teaser', widget: 'string' }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'ideas'
+    label: 'Ideas'
+    label_singular: 'Idea'
+    folder: 'content/ideas'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime', date_format: 'MMM YYYY' }
+      - { label: 'Elevator Pitch', name: 'teaser', widget: 'string' }
+      - { label: 'Vision', name: 'vision', widget: 'markdown' }
+      - label: "Problem" name: "problem-definition" widget: "object" collapsed: false fields: 
+        - {label: "Describe the problem", name: "problem", widget: "markdown"}
+        - {label: "Confidence", name: "confidence", widget: "number", value_type: "int", min: 0, max: 100, step: 5 }
+      - label: "Alternatives" name: "list-alternatives" widget: "object" collapsed: false fields: 
+        - {label: "Describe the alternatives", name: "alternatives", widget: "markdown"}
+        - {label: "Confidence", name: "confidence", widget: "number", value_type: "int", min: 0, max: 100, step: 5 }
