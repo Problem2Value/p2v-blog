@@ -15,7 +15,7 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{slug}}'
     editor:
-      preview: true
+    preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime', date_format: 'MMM YYYY' }
@@ -30,15 +30,23 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{slug}}'
     editor:
-      preview: true
+    preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Date', name: 'date', widget: 'datetime', date_format: 'MMM YYYY' }
       - { label: 'Elevator Pitch', name: 'teaser', widget: 'string' }
       - { label: 'Vision', name: 'vision', widget: 'markdown' }
-      - label: "Problem" name: "problem-definition" widget: "object" collapsed: false, fields: 
-        - {label: "Describe the problem", name: "problem", widget: "markdown"}
-        - {label: "Confidence", name: "confidence", widget: "number", value_type: "int", min: 0, max: 100, step: 5 }
-      - label: "Alternatives" name: "list-alternatives" widget: "object" collapsed: false, fields: 
-        - {label: "Describe the alternatives", name: "alternatives", widget: "markdown"}
-        - {label: "Confidence", name: "confidence", widget: "number", value_type: "int", min: 0, max: 100, step: 5 }
+      - name: "problem-definition"
+        label: "Problem"
+        widget: "object"
+        collapsed: true
+        fields: 
+          - {label: "Describe the problem", name: "problem", widget: "markdown"}
+          - {label: "Confidence", name: "confidence", widget: "number", value_type: "int", min: 0, max: 100, step: 5 }
+      - name: "list-alternatives"
+        label: "Alternatives"
+        widget: "object"
+        collapsed: true
+        fields: 
+          - {label: "Describe the alternatives", name: "alternatives", widget: "markdown"}
+          - {label: "Confidence", name: "confidence", widget: "number", value_type: "int", min: 0, max: 100, step: 5 }
