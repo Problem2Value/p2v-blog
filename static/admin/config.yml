@@ -36,9 +36,9 @@ collections:
       - { label: 'Date', name: 'date', widget: 'datetime', date_format: 'MMM YYYY' }
       - { label: 'Elevator Pitch', name: 'teaser', widget: 'string' }
       - { label: 'Vision', name: 'vision', widget: 'markdown' }
-      - label: "Problem" name: "problem-definition" widget: "object" collapsed: false fields: 
+      - label: "Problem" name: "problem-definition" widget: "object" collapsed: false, fields: 
         - {label: "Describe the problem", name: "problem", widget: "markdown"}
         - {label: "Confidence", name: "confidence", widget: "number", value_type: "int", min: 0, max: 100, step: 5 }
-      - label: "Alternatives" name: "list-alternatives" widget: "object" collapsed: false fields: 
+      - label: "Alternatives" name: "list-alternatives" widget: "object" collapsed: false, fields: 
         - {label: "Describe the alternatives", name: "alternatives", widget: "markdown"}
         - {label: "Confidence", name: "confidence", widget: "number", value_type: "int", min: 0, max: 100, step: 5 }
