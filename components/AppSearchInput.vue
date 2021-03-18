@@ -5,7 +5,7 @@
       type="search"
       autocomplete="off"
       placeholder="Search Articles"
-      class="bg-gray-100 h-10 px-5 pr-10 rounded-full text-sm focus:outline-none"
+      class="block bg-gray-100 h-10 px-5 pr-10 rounded-full text-sm focus:outline-none"
     />
     <button type="submit" class="absolute right-0 top-0 mt-3 mr-4">
       <svg
@@ -28,21 +28,14 @@
       </svg>
     </button>
 
-    <!-- <input
-      v-model="searchQuery"
-      type="search"
-      autocomplete="off"
-      placeholder="Search Articles"
-      class="block w-full pl-10 pr-3 py-2 truncate leading-5 placeholder-gray-500 border border-gray-500 text-gray-700 focus:border-gray-300 rounded-md focus:outline-none focus:bg-white bg-white"
-    /> -->
     <ul
       v-if="articles.length"
-      class="z-10 absolute w-auto flex-1 top-40 bg-white dark:bg-gray-900 rounded-md border border-gray-300 overflow-hidden"
+      class="z-10 absolute w-auto flex-1 top-10 bg-white rounded-md border border-gray-300 overflow-hidden"
     >
       <li v-for="article of articles" :key="article.slug">
         <NuxtLink
           :to="{ name: 'blog-slug', params: { slug: article.slug } }"
-          class="flex px-4 py-2 items-center leading-5 transition ease-in-out duration-150 text-green-500 hover:text-black"
+          class="flex px-4 py-2 items-center transition ease-in-out duration-150 text-gray-600 hover:text-indigo-500"
         >
           {{ article.title }}
         </NuxtLink>
@@ -50,6 +43,7 @@
     </ul>
   </div>
 </template>
+
 <script>
 export default {
   data() {
@@ -64,7 +58,7 @@ export default {
         this.articles = []
         return
       }
-      this.articles = await this.$content('articles')
+      this.articles = await this.$content('blog')
         .limit(6)
         .search(searchQuery)
         .fetch()
