@@ -2,8 +2,6 @@
   <!-- Later add styles for dark mode -->
   <!-- <div class="text-gray-700 bg-white dark:bg-gray-800"> -->
   <div class="text-gray-700 bg-white">
-    <AppHeader />
-
     <BlogHero />
 
     <!-- Get the article content from our Netlify CMS -->
@@ -146,8 +144,6 @@
         </div>
       </div>
     </section>
-
-    <AppFooter />
 
     <!-- <footer class="bg-gray-100 text-gray-600 body-font">
       <div
