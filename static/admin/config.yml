@@ -21,7 +21,7 @@ collections:
       - { name: 'teaser', label: 'Teaser', widget: 'string', hint: 'Short Description (20 to 140 chars)', pattern: ['^.{20,140}$', "Must be between 20 and 140 characters"] }
       - { name: 'thumbnail', label: "Thumbnail", widget: 'image', hint: 'Size 800x800 px' }
       - { name: 'body', label: 'Body', widget: 'markdown' }
-  name: 'topics'
+  - name: 'topics'
     label: 'Topics'
     label_singular: 'Topic'
     folder: 'content/topics'
