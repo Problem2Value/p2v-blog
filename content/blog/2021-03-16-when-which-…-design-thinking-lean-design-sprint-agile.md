@@ -1,5 +1,5 @@
 ---
-title: When, which … Design Thinking, Lean, Design Sprint, Agile?
+title: WWhen, which … Design Thinking, Lean, Design Sprint, Agile?
 date: 2021-03-16T16:18:46.640Z
 description: A lot of people are — understandably so — very confused when it
   comes to innovation methodologies, frameworks, and techniques
