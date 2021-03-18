@@ -14,10 +14,10 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Teaser', name: 'teaser', widget: 'string' }
-      - { label: "Featured Image", name: 'thumbnail', widget: 'image' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'date', label: 'Publish Date', widget: 'datetime' }
+      - { name: 'teaser', label: 'Teaser', widget: 'string', hint: 'Short Description', pattern: ['^.{20,140}$', "Must have at least 20 characters"] }
+      - { name: 'thumbnail', label: "Featured Image", widget: 'image' }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
