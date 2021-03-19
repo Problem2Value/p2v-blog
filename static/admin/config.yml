@@ -9,7 +9,7 @@ collections:
   - name: 'blog'
     label: 'Blog'
     label_singular: 'Article'
-    folder: 'content/articles'
+    folder: 'content/blog'
     format: 'frontmatter'
     create: true
     slug: '{{year}}-{{month}}-{{slug}}'
