@@ -327,4 +327,14 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.nuxt-content h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.nuxt-content h2 {
+  font-weight: bold;
+  font-size: 28px;
+}
+</style>

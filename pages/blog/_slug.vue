@@ -10,13 +10,13 @@
         :alt="article.alt"
       /> -->
       <div class="text-center lg:w-2/3 w-full">
-        <h1 class="sm:text-4xl text-5xl mb-4 font-medium text-gray-900">
+        <h1 class="sm:text-4xl text-5xl mb-4 font-medium text-gray-600">
           {{ article.title }}
         </h1>
         <p class="mb-8 leading-relaxed">...</p>
       </div>
 
-      <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
+      <p>{{ formatDate(article.date) }}</p>
       <div
         class="relative xs:py-8 xs:px-8 lg:py-10 lg:px-16 xs:w-full h-full markdown-body post-right"
       >
@@ -43,9 +43,11 @@ export default {
 </script>
 
 <style>
-.nuxt-content p {
-  margin-bottom: 20px;
+.nuxt-content h1 {
+  font-weight: bold;
+  font-size: 40px;
 }
+
 .nuxt-content h2 {
   font-weight: bold;
   font-size: 28px;
@@ -53,5 +55,15 @@ export default {
 .nuxt-content h3 {
   font-weight: bold;
   font-size: 22px;
+}
+
+.nuxt-content p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.nuxt-content p {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 </style>
