@@ -1,5 +1,5 @@
 {
-  "name": "it-hires-blog",
+  "name": "P2V Blog",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -14,6 +14,7 @@
     "nuxt": "^2.14.12"
   },
   "devDependencies": {
+    "@nuxtjs/color-mode": "^2.0.5",
     "@nuxtjs/tailwindcss": "^4.0.1",
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "autoprefixer": "^9.8.6",

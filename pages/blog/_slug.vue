@@ -1,69 +1,63 @@
 <template>
-  <section class="text-gray-600 body-font">
+  <div id="article" class="body-font py-30">
     <div
-      class="container mx-auto flex px-5 py-24 items-center justify-center flex-col"
+      class="container mx-auto flex px-5 py-20 items-center justify-center flex-col"
     >
-      <p>{{ article.description }}</p>
-      <!-- <img
-        class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
-        :src="article.thumbnail"
-        :alt="article.alt"
-      /> -->
       <div class="text-center lg:w-2/3 w-full">
-        <h1 class="sm:text-4xl text-5xl mb-4 font-medium text-gray-600">
+        <h1 class="text-5xl mb-4 font-bold">
           {{ article.title }}
         </h1>
-        <p class="mb-8 leading-relaxed">...</p>
+        <!-- <p class="mb-8 leading-relaxed">{{ article.teaser }}</p> -->
+        <p>{{ formatDate(article.date) }}</p>
       </div>
 
-      <p>{{ formatDate(article.date) }}</p>
-      <div
-        class="relative xs:py-8 xs:px-8 lg:py-10 lg:px-16 xs:w-full h-full markdown-body post-right"
-      >
+      <div class="w-full xs:py-8 xs:px-8 lg:py-10 lg:px-16 xs:w-full h-full">
+        <!-- content from markdown -->
         <nuxt-content :document="article" />
+        <!-- prevNext component -->
+        <PrevNext :prev="prev" :next="next" class="mt-8" />
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
 export default {
   async asyncData({ $content, params }) {
     const article = await $content('blog', params.slug).fetch()
-
-    return { article }
+    const [prev, next] = await $content('blog')
+      .only(['title', 'slug'])
+      .sortBy('date', 'asc')
+      .surround(params.slug)
+      .fetch()
+    return {
+      article,
+      prev,
+      next,
+    }
   },
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long' }
       return new Date(date).toLocaleDateString('en', options)
     },
+
+    shareTwitter() {
+      var tweetURL =
+        'https://twitter.com/intent/tweet?text=' +
+        document.title +
+        '&url=' +
+        location.href
+      window.open(tweetURL)
+    },
+
+    shareLinkedIn() {
+      var linkedInPostURL =
+        'https://www.linkedin.com/shareArticle/?mini=true&url=' + location.href
+      this.PopupCenter(linkedInPostURL, 500, 500)
+    },
   },
 }
 </script>
 
-<style>
-.nuxt-content h1 {
-  font-weight: bold;
-  font-size: 40px;
-}
-
-.nuxt-content h2 {
-  font-weight: bold;
-  font-size: 28px;
-}
-.nuxt-content h3 {
-  font-weight: bold;
-  font-size: 22px;
-}
-
-.nuxt-content p {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.nuxt-content p {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-</style>
+<style></style>
