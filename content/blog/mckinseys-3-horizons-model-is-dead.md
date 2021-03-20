@@ -75,6 +75,3 @@ Innovation Spectrum
 * <https://medium.com/@geertwlclaes/not-when-how-do-i-fill-in-my-business-model-canvas-or-lean-canvas-but-why-9f4a580b093c>
 * <https://medium.com/@geertwlclaes/when-which-design-thinking-lean-design-sprint-agile-a4614fa778b9>
 
-## [Geert Claes](https://geertwlclaes.medium.com/?source=post_sidebar--------------------------post_sidebar-----------)
-
-Helping companies with remote work and innovation
