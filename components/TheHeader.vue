@@ -89,7 +89,7 @@
         </button> -->
       </div>
       <div class="flex justify-end lg:w-2/5">
-        <nav class="flex inline-flex">
+        <nav class="flex">
           <!-- <img
             id="p2v" :src="imgP2V"
           />

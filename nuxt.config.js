@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'P2V Blog',
+    title: 'P2V-Blog',
     htmlAttrs: {
       lang: 'en',
     },
