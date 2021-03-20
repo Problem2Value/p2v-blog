@@ -6,8 +6,6 @@ thumbnail: /img/3hsobsolete.png
 topic:
   - Innovation
 ---
-
-
 About 10 years ago the book [The Alchemy of Growth](https://books.google.de/books/about/The_Alchemy_Of_Growth.html?id=F5RxQgAACAAJ) introduced the 3 horizon model, which has since often been referred to as the [McKinsey 3 horizons of innovation](https://www.mckinsey.com/business-functions/strategy-and-corporate-finance/our-insights/enduring-ideas-the-three-horizons-of-growth). Credit where credit’s due, because the 3 horizon model has done a great job in highlighting that not all “innovation” is the same.
 
 A fe*w days ago [Steve Blank wrote a nice HB](https://hbr.org/2019/02/mckinseys-three-horizons-model-defined-innovation-for-years-heres-why-it-no-longer-applies)*[R article](https://hbr.org/2019/02/mckinseys-three-horizons-model-defined-innovation-for-years-heres-why-it-no-longer-applies) where he highlighted that the world has changed, and the 3 time horizons are actually no longer bound by time. Especially time horizon 3 type innovations can disrupt the status quo a lot faster than the originally projected 36 to 72 months.
@@ -15,8 +13,6 @@ A fe*w days ago [Steve Blank wrote a nice HB](https://hbr.org/2019/02/mckinseys
 Whilst I absolutely agree with [Steve](https://www.linkedin.com/in/ACoAAAABcycB0Rztq-snExh0r3NkHv6-uD2N7Ak/), I also believe the 3 horizon model has additional flaws beyond the irrelevance of the time aspect of its horizons. For fans of a 3-pronged approach I have previously already shared that I prefer [Clayton Christensen](https://www.linkedin.com/in/ACoAAAJReSEBQaC1EAzEbCppaIoHaLflwv2ZHrg/)’s efficiency, sustaining and market-creating to describe his 3 types of innovation.
 
 ![](/img/3hsobsolete.png)
-
-
 
 # The 3-type world
 
@@ -60,8 +56,6 @@ Not “when/how” do I fill in my “Canvas” but “why”
 
 ![](/img/innovationspectrum.png)
 
-
-
 Innovation Spectrum
 
 ## References:
@@ -74,4 +68,3 @@ Innovation Spectrum
 * <https://www.businessinsider.de/reid-hoffman-good-deals-controversial-2017-6>
 * <https://medium.com/@geertwlclaes/not-when-how-do-i-fill-in-my-business-model-canvas-or-lean-canvas-but-why-9f4a580b093c>
 * <https://medium.com/@geertwlclaes/when-which-design-thinking-lean-design-sprint-agile-a4614fa778b9>
-
