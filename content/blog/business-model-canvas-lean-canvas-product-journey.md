@@ -35,8 +35,6 @@ I think the empathy map image is dSchool’s and the [Jobs-to-be-done image](ht
 
 ![](/img/projourneyrunninglean.png)
 
-
-
 *There are a number of ways to prioritise assumptions and the simple question of “which part of the business model, if not true, would make our entire product vision collapse?” is a really good guide. Experiments should always have clear purpose of validating an assumption with AAA metrics (actionable, accessible and auditable) and never start to “just see what happens” because innovator bias will always turn whatever happened into an excuse or even a success.*
 
 ## Scale
@@ -80,5 +78,3 @@ My adaptation of the [Lean Canvas](https://leanstack.com/) which in turn was a
 > I found that sticking with the same number of boxes as the Business Model Canvas (just like the Lean Canvas did) makes perfect sense because it is so widespread now and I found myself just sticking post-its on top of the title to re-purpose the boxes. I also wanted to clearly credit Alex Osterwalder and Ash Maurya.
 
 Again, this is not a better *Business* Model Canvas or a better Lean Canvas, it’s just a different adaption that makes sense to me to describe a product on a single page. Thoughts?
-
-![](https://miro.medium.com/max/60/1*gtulLxsOXeIz-RtFJ32P5g.png?q=20)
