@@ -15,9 +15,7 @@ Where to start and how to transition between various innovation methodologies de
 
 Innovation should happen at every stage of the product lifecycle journey. In [Dual Transformation](https://www.amazon.com/dp/1633692485) a clear separation is made between repositioning today’s core business (transformation A) and creating the new (transformation B).
 
-![](https://miro.medium.com/max/60/1*GxQsbj_OVmVkagHkU4Cfeg.png?q=20)
-
-![](https://miro.medium.com/max/942/1*GxQsbj_OVmVkagHkU4Cfeg.png)
+![](/img/projounreydualtransformation.png)
 
 [Graphic from innosight.com](https://www.innosight.com/insight/dual-transformation)
 
@@ -27,21 +25,17 @@ Repositioning the core sort of bundles McKinsey’s Horizons 1 and 2, where it i
 
 All products should start with empathy, exploring the problem space to better understand who the customers are, what they say, do, think and feel or what the functional, emotional and social facets for which they will hire the product are (check-out [Competing Against Luck](https://www.amazon.com/dp/0062565230)). Empathy is the most important aspect to nail and not just when creating a new product, even existing products must maintain customer empathy to be able to react to changes in the market and/or customers’ lives.
 
-![](https://miro.medium.com/max/60/1*M2bt9x7Jy-CLpSZdFE4V-w.png?q=20)
-
-![](https://miro.medium.com/max/2843/1*M2bt9x7Jy-CLpSZdFE4V-w.png)
+![](/img/projourneyjtbd.png)
 
 I think the empathy map image is dSchool’s and the [Jobs-to-be-done image](https://medium.com/@zbigniewgecis/8-things-to-use-in-jobs-to-be-done-framework-for-product-development-4ae7c6f3c30b) is from [Zbigniew Gecis](https://medium.com/@zbigniewgecis?source=post_header_lockup)
 
 ## Validate
 
-*All insights are assumptions until they are validated and most popular innovation methodologies now strongly advocate to test using small experiments*. Most teams now luckily also document their product vision in some variation of the Business Model Canvas instead of the traditional long and boring business plan. Ash Maurya made a great visual showing how a product can go from a plan A to a plan that works by gradually validating aspects of the business model (I’d recommend his [Running Lean](https://www.amazon.com/dp/1449305172) and [Scaling Lean](https://www.amazon.com/dp/1101980524) books).
+*All insights are assumptions until they are validated and most popular innovation methodologies now strongly advocate to test using small experiments*. Most teams now luckily also document their product vision in some variation of the Business Model Canvas instead of the traditional long and boring business plan. Ash Maurya made a great visual showing how a product can go from a plan A to a plan that works by gradually validating aspects of the business model (I’d recommend his [Running Lean](https://www.amazon.com/dp/1449305172) and [Scaling Lean](https://www.amazon.com/dp/1101980524) books).From Ash Maurya’s [Running Lean](https://www.amazon.com/dp/1449305172)
 
-![](https://miro.medium.com/max/60/1*oFk4H8QUq5zRwGaABS1s6Q.png?q=20)
+![](/img/projourneyrunninglean.png)
 
-![](https://miro.medium.com/max/1864/1*oFk4H8QUq5zRwGaABS1s6Q.png)
 
-From Ash Maurya’s [Running Lean](https://www.amazon.com/dp/1449305172)
 
 *There are a number of ways to prioritise assumptions and the simple question of “which part of the business model, if not true, would make our entire product vision collapse?” is a really good guide. Experiments should always have clear purpose of validating an assumption with AAA metrics (actionable, accessible and auditable) and never start to “just see what happens” because innovator bias will always turn whatever happened into an excuse or even a success.*
 
@@ -49,9 +43,7 @@ From Ash Maurya’s [Running Lean](https://www.amazon.com/dp/1449305172)
 
 Early on in the innovation funnel the main focus is on learning from customers, co-create a product customers really want. Later the focus shifts to testing and tuning the customer growth engine, to see if the target can be reached by measuring things like Dave McClure’s “Pirate Metrics”, i.e. customer acquisition, activation, retention, referral, and revenue. Scaling applies to new products, but changes to existing products should also be tested on a minor subset of the customer base first.
 
-![](https://miro.medium.com/max/60/1*64iud7JgtCKPffZ-yMl6rg.png?q=20)
-
-![](https://miro.medium.com/max/1712/1*64iud7JgtCKPffZ-yMl6rg.png)
+![](/img/projourneyscalinglean.png)
 
 From Ash Maurya’s [Scaling Lean](https://www.amazon.com/dp/1101980524)
 
@@ -67,9 +59,7 @@ I have often noticed people struggling to either complete (or just add meaningle
 
 *The “business model” and not the “solution” is the product, and continuous innovation means a product is on a continuous journey, so I decided to call this new business model adaptation the “Product Journey”.*
 
-![](https://miro.medium.com/max/60/1*rUVh4Hrt_G26Gxb43uqlqA.png?q=20)
-
-![](https://miro.medium.com/max/2000/1*rUVh4Hrt_G26Gxb43uqlqA.png)
+![](/img/productjourney.png)
 
 My adaptation of the [Lean Canvas](https://leanstack.com/) which in turn was an based on [Business Model Canvas](https://strategyzer.com/canvas/business-model-canvas)
 
