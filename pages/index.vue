@@ -9,53 +9,59 @@
       class="pt-20 my-30 bg-white dark:bg-gray-800 text-gray-700 dark:text-white"
     >
       <div class="container mx-auto">
-        <div class="flex flex-wrap m-4">
+        <div class="flex flex-wrap -m-4">
           <div
             v-for="article of articles"
             :key="article.slug"
-            class="flex-grow p-4 md:w-1/3"
+            class="p-4 lg:w-1/3"
           >
             <NuxtLink
               :to="{ name: 'blog-slug', params: { slug: article.slug } }"
               class="transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md xxlmax:flex-col"
             >
               <div
-                class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden dark:bg-gray-700"
+                class="h-full relative border-2 border-gray-200 border-opacity-60 rounded-lg dark:bg-gray-700"
               >
-                <img
-                  class="bg-white lg:h-48 md:h-36 w-full object-cover object-center"
-                  :src="article.thumbnail"
-                  alt="blog"
-                />
-                <div class="p-6">
-                  <h2
-                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-2"
-                  >
-                    Topic: {{ article.topic }}
-                  </h2>
-                  <h1 class="title-font text-lg font-medium mb-3">
-                    {{ article.title }}
-                  </h1>
-                  <p class="leading-relaxed mb-3">
-                    {{ article.description }}
-                  </p>
-                  <div class="flex items-center flex-wrap">
-                    <a
-                      class="text-indigo-500 dark:text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0"
-                      >Learn More
-                      <svg
-                        class="w-4 h-4 ml-2"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                <div class="flex-none">
+                  <img
+                    class="bg-white lg:h-48 md:h-36 w-full object-cover object-center"
+                    :src="article.thumbnail"
+                    alt="blog"
+                  />
+                </div>
+                <div class="flex-auto">
+                  <div class="flex flex-col p-6">
+                    <div class="flex flex-col">
+                      <h2
+                        class="tracking-widest text-xs font-medium text-gray-400 mb-2"
                       >
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
+                        Topic: {{ article.topic }}
+                      </h2>
+                      <h1 class="text-lg font-medium mb-3">
+                        {{ article.title }}
+                      </h1>
+                      <p class="leading-relaxed mb-3">
+                        {{ article.description }}
+                      </p>
+                    </div>
+                    <div class="flex justify-center absolute bottom-0 mb-2">
+                      <a
+                        class="text-indigo-500 dark:text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0"
+                        >Learn More
+                        <svg
+                          class="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>

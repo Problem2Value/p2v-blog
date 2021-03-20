@@ -1,7 +1,7 @@
 <template>
   <section
     id="header"
-    class="sticky top-0 z-50 bg-purple-100 dark:bg-gray-800 text-gray-700 dark:text-white dark:border-gray-600 body-font border-b shadow border-transparent"
+    class="sticky top-0 z-50 bg-purple-300 dark:bg-gray-800 text-gray-700 dark:text-white dark:border-gray-600 body-font border-b shadow border-transparent"
   >
     <div
       class="container mx-auto flex p-5 flex-col md:flex-row flex-nowrap items-center"
@@ -101,12 +101,12 @@
 
           <a
             href="https://problem2value.com"
-            class="mx-5 text-center hover:text-indigo-800"
+            class="underline text-sm mx-5 text-center hover:text-indigo-800 dark:hover:text-indigo-300"
             >Problem2Value</a
           >
           <a
             href="https://it-hires.eu"
-            class="mx-5 text-center hover:text-indigo-800"
+            class="underline text-sm mx-5 text-center hover:text-indigo-800 dark:hover:text-indigo-300"
             >IT Hires Europe</a
           >
         </nav>

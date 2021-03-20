@@ -42,16 +42,32 @@
           </h2>
           <nav class="list-none mb-10">
             <li>
-              <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              <a
+                href="https://www.problem2value.com/bootcamp.html"
+                class="text-gray-600 hover:text-gray-800 dark:hover:text-indigo-300"
+                >Innovation Bootcamp</a
+              >
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              <a
+                href="https://www.problem2value.com/innovation.html#package-research"
+                class="text-gray-600 hover:text-gray-800 dark:hover:text-indigo-300"
+                >Research Package</a
+              >
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              <a
+                href="https://www.problem2value.com/innovation.html#package-concept"
+                class="text-gray-600 hover:text-gray-800 dark:hover:text-indigo-300"
+                >Concept Package</a
+              >
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              <a
+                href="https://www.problem2value.com/innovation.html#package-mvp"
+                class="text-gray-600 hover:text-gray-800 dark:hover:text-indigo-300"
+                >Product Package</a
+              >
             </li>
           </nav>
         </div>
@@ -61,16 +77,32 @@
           </h2>
           <nav class="list-none mb-10">
             <li>
-              <a class="text-gray-600 hover:text-gray-800">First Link</a>
+              <a
+                href="https://ithiresv2.webflow.io/how-we-work"
+                class="text-gray-600 hover:text-gray-800 dark:hover:text-indigo-300"
+                >How We Work</a
+              >
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+              <a
+                href="https://ithiresv2.webflow.io/our-developers"
+                class="text-gray-600 hover:text-gray-800 dark:hover:text-indigo-300"
+                >Remote Developers</a
+              >
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+              <a
+                href="https://ithiresv2.webflow.io/our-testers"
+                class="text-gray-600 hover:text-gray-800 dark:hover:text-indigo-300"
+                >Remote Testers</a
+              >
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              <a
+                href="https://ithiresv2.webflow.io/our-designers"
+                class="text-gray-600 hover:text-gray-800 dark:hover:text-indigo-300"
+                >Remote Designers</a
+              >
             </li>
           </nav>
         </div>
@@ -93,7 +125,7 @@
         <span
           class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start"
         >
-          <a class="ml-3 text-white">
+          <!-- <a class="ml-3 text-white">
             <svg
               fill="currentColor"
               stroke-linecap="round"
@@ -106,9 +138,12 @@
                 d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
               ></path>
             </svg>
-          </a>
+          </a> -->
 
-          <a class="ml-3 text-white">
+          <a
+            href="https://www.linkedin.com/company/problem2value"
+            class="ml-3 text-white"
+          >
             <svg
               fill="currentColor"
               stroke="currentColor"
