@@ -55,7 +55,7 @@ Once you have found a problem-solution fit your focus can shift towards validati
 
 *e.g. the pirate (AARRR) metrics Acquisition, Activation, Revenue, Retention and Referral can be used here. Based on your target growth rate towards your goal, how many new customers need to be acquired at each stage, from how many will we be able to capture the value they used, how many will use the value again and how many times/how many will churn, how many will become ambassadors etc.*
 
-
+![](/img/qsstrategy.png)
 
 Example questions for “Strategy”
 
