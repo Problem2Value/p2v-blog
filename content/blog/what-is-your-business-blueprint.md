@@ -39,15 +39,11 @@ Example questions for “Purpose”
 
 ## ***2. Goal & Revenue Model — Where are you going?***
 
-Once the purpose has been defined you need to describe a convincing vision with an ambitious goal. Here you need to share what exactly you will be aiming for and what goal will make this a success. In your vision you will describe how much value (typically revenue) you aim at capturing as well as project how many you believe can be convinced to switch to your solution.
-
-![](/img/qsgoal.png)
-
-![](https://miro.medium.com/max/4691/1*NntXF75QHVqWQhMaYzLulw.png)
-
-Example questions for “Vision”
+Once the purpose has been defined you need to describe a convincing vision with an ambitious goal. Here you need to share what exactly you will be aiming for and what goal will make this a success. In your vision you will describe how much value (typically revenue) you aim at capturing as well as project how many you believe can be convinced to switch to your solution.Example questions for “Vision”
 
 > *The vision will provide info for your “market size” and target “financials” slides in a pitch-deck.*
+
+![](/img/qsgoal.png)
 
 ## ***3. Go-to-Market Strategy — How are you getting there?***
 
@@ -59,9 +55,7 @@ Once you have found a problem-solution fit your focus can shift towards validati
 
 *e.g. the pirate (AARRR) metrics Acquisition, Activation, Revenue, Retention and Referral can be used here. Based on your target growth rate towards your goal, how many new customers need to be acquired at each stage, from how many will we be able to capture the value they used, how many will use the value again and how many times/how many will churn, how many will become ambassadors etc.*
 
-![](https://miro.medium.com/max/60/1*hjLvWay0WqUS8hSteWDx0g.png?q=20)
 
-![](https://miro.medium.com/max/4691/1*hjLvWay0WqUS8hSteWDx0g.png)
 
 Example questions for “Strategy”
 
@@ -73,9 +67,7 @@ Be very transparent when it comes to sharing where you are today towards your go
 
 *When used as a regular update, the status should describe the learnings since the previous update.*
 
-![](https://miro.medium.com/max/60/1*s93FbXV4SiajzuHv0rY9Og.png?q=20)
-
-![](https://miro.medium.com/max/4691/1*s93FbXV4SiajzuHv0rY9Og.png)
+![](/img/qsstatus.png)
 
 Example question for “Status”
 
@@ -89,9 +81,7 @@ The “plan” part of your business plan is vital as it justifies any funding y
 
 Here you will openly share what your next objectives are, which activities your team has planned for this, and why those activities were prioritised. Prioritise what you will validate next based on what your current highest risk assumptions that have the potential to render your overall business plan irrelevant (e.g. will someone rent out their own home to strangers?). Always be very transparent on what the expected outcome of your experiments will be and how you will measure them *(following the 3-A of metrics: accessible, auditable and actionable)*.
 
-![](https://miro.medium.com/max/60/1*b9nf7wmcswIfEbFTRFlDbQ.png?q=20)
-
-![](https://miro.medium.com/max/4691/1*b9nf7wmcswIfEbFTRFlDbQ.png)
+![](/img/qsplan.png)
 
 Example questions for “Plan”
 
@@ -101,9 +91,7 @@ Example questions for “Plan”
 
 You have provided enough information to now ask for the support you need to execute the planned activities. Be clear what the resources are — whether it is money, people, time, etc. — you asking for.
 
-![](https://miro.medium.com/max/60/1*3p7FFBXSaH43NfuJroYLrQ.png?q=20)
-
-![](https://miro.medium.com/max/4691/1*3p7FFBXSaH43NfuJroYLrQ.png)
+![](/img/qssupport.png)
 
 Example question for “Support”
 
