@@ -10,9 +10,9 @@
           <h1 class="text-5xl mb-4 font-bold">From Problem to Value</h1>
           <p class="my-10 leading-relaxed text-2xl">
             Opinions and thoughts since 2017 on
-            <span class="text-3xl">Innovation</span>
+            <span class="text-purple-500">Innovation</span>
             as well as distributed or
-            <span class="text-3xl">Remote Work</span>
+            <span class="text-purple-500">Remote Work</span>
           </p>
           <p class="text-base italic">
             No specific methodologies, frameworks & techniques and a clear focus
