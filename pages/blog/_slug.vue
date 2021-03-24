@@ -2,8 +2,8 @@
   <div class="flex mt-4">
     <ArticleSocial
       :title="page.title"
-      :description="page.teaser"
-      :image="page.thumbnail"
+      :teaser="page.teaser"
+      :thumbnail="page.thumbnail"
     />
     <div class="mx-auto">
       <!-- <SearchInput search-item="articles" /> -->
