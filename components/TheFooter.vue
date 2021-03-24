@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="mx-auto my-30 overflow-hidden sm:px-6 lg:px-8">
+    <div class="mx-auto overflow-hidden sm:px-6 lg:px-8">
       <div
         id="footer-links"
         class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
@@ -9,9 +9,7 @@
           class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first"
         >
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="text-base font-bold tracking-widest text-sm mb-3">
-              Problem2Value
-            </h2>
+            <h2 class="text-base tracking-widest mb-3">Problem2Value</h2>
             <nav class="list-none mb-10">
               <li class="text-sm font-light">
                 <a href="https://www.problem2value.com/bootcamp.html"
@@ -42,26 +40,24 @@
             </nav>
           </div>
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="font-medium tracking-widest text-sm mb-3">
-              IT Hires Europe
-            </h2>
+            <h2 class="text-base tracking-widest mb-3">IT Hires Europe</h2>
             <nav class="list-none mb-10">
-              <li>
+              <li class="text-sm font-light">
                 <a href="https://ithiresv2.webflow.io/how-we-work" class=""
                   >How We Work</a
                 >
               </li>
-              <li>
+              <li class="text-sm font-light">
                 <a href="https://ithiresv2.webflow.io/our-developers" class=""
                   >Remote Developers</a
                 >
               </li>
-              <li>
+              <li class="text-sm font-light">
                 <a href="https://ithiresv2.webflow.io/our-testers" class=""
                   >Remote Testers</a
                 >
               </li>
-              <li>
+              <li class="text-sm font-light">
                 <a href="https://ithiresv2.webflow.io/our-designers" class=""
                   >Remote Designers</a
                 >
@@ -87,21 +83,6 @@
           <span
             class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start"
           >
-            <!-- <a class="ml-3 text-white">
-            <svg
-              fill="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-5 h-5"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-              ></path>
-            </svg>
-          </a> -->
-
             <a
               href="https://www.linkedin.com/company/problem2value"
               class="ml-3"

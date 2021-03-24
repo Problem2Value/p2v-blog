@@ -9,7 +9,7 @@
       <!-- <SearchInput search-item="articles" /> -->
       <!-- <AppBreadCrumb link="blog" :title="page.title" /> -->
       <article class="md:p-8 prose prose-md lg:prose-lg mx-auto">
-        <h1 class="title">
+        <h1 class="pb-10">
           {{ page.title }}
         </h1>
 

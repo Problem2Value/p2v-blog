@@ -4,9 +4,9 @@
       <NuxtLink
         v-if="prev"
         :to="{ name: 'blog-slug', params: { slug: prev.slug } }"
-        class="sm:w-auto flex-1 text-center bg-gray-900 hover:bg-gray-700 text-white text-lg font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
+        class="sm:w-auto flex-1 text-center bg-purple-500 hover:bg-purple-600 text-white text-lg font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
       >
-        Previous Article
+        Previous
       </NuxtLink>
       <span v-else>&nbsp;</span>
     </div>
@@ -14,9 +14,9 @@
       <NuxtLink
         v-if="next"
         :to="{ name: 'blog-slug', params: { slug: next.slug } }"
-        class="sm:w-auto flex-1 text-center bg-gray-900 hover:bg-gray-700 text-white text-lg font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
+        class="sm:w-auto flex-1 text-center bg-purple-500 hover:bg-purple-600 text-white text-lg font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
       >
-        Next Article
+        Next
       </NuxtLink>
       <span v-else>&nbsp;</span>
     </div>
