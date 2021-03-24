@@ -46,7 +46,7 @@ export default {
       {
         hid: 'twitter:url',
         name: 'twitter:url',
-        content: 'https://problem2value.com',
+        content: 'https://blog.problem2value.com',
       },
       {
         hid: 'twitter:title',
