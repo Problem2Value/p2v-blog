@@ -1,63 +1,88 @@
 <template>
-  <div id="article" class="body-font py-30">
-    <div
-      class="container mx-auto flex px-5 py-20 items-center justify-center flex-col"
-    >
-      <div class="text-center lg:w-2/3 w-full">
-        <h1 class="text-5xl mb-4 font-bold">
-          {{ article.title }}
+  <div class="flex mt-4">
+    <ArticleSocial
+      :title="page.title"
+      :description="page.teaser"
+      :image="page.thumbnail"
+    />
+    <div class="mx-auto">
+      <!-- <SearchInput search-item="articles" /> -->
+      <!-- <AppBreadCrumb link="blog" :title="page.title" /> -->
+      <article class="md:p-8 prose prose-md lg:prose-lg mx-auto">
+        <h1 class="title">
+          {{ page.title }}
         </h1>
-        <!-- <p class="mb-8 leading-relaxed">{{ article.teaser }}</p> -->
-        <p>{{ formatDate(article.date) }}</p>
-      </div>
 
-      <div class="w-full xs:py-8 xs:px-8 lg:py-10 lg:px-16 xs:w-full h-full">
-        <!-- content from markdown -->
-        <nuxt-content :document="article" />
-        <!-- prevNext component -->
-        <PrevNext :prev="prev" :next="next" class="mt-8" />
-      </div>
+        <nuxt-content :document="page" class="" />
+      </article>
+      <h3 class="border-solid border-t-4 border-gray-600 pt-4">
+        Check out some of our other articles:
+      </h3>
+      <PrevNext :prev="prev" :next="next" class="mt-4" />
     </div>
   </div>
 </template>
 
 <script>
+const readingTime = require('reading-time')
+
 export default {
   async asyncData({ $content, params }) {
-    const article = await $content('blog', params.slug).fetch()
-    const [prev, next] = await $content('blog')
-      .only(['title', 'slug'])
-      .sortBy('date', 'asc')
-      .surround(params.slug)
+    const slug = params.slug || 'index'
+
+    const page = await $content('articles', slug).fetch()
+    const articles = await $content('articles')
+      .where({ published: { $ne: false } })
+      .sortBy('date', 'desc')
       .fetch()
+
+    const [prev, next] = await $content('articles')
+      .where({ published: { $ne: false } })
+      .sortBy('date', 'desc')
+      .surround(slug)
+      .fetch()
+
+    // const stats = readingTime(page.readingTime)
+
     return {
-      article,
+      page,
       prev,
       next,
+      // stats,
+      articles,
     }
   },
-  methods: {
-    formatDate(date) {
-      const options = { year: 'numeric', month: 'long' }
-      return new Date(date).toLocaleDateString('en', options)
-    },
-
-    shareTwitter() {
-      var tweetURL =
-        'https://twitter.com/intent/tweet?text=' +
-        document.title +
-        '&url=' +
-        location.href
-      window.open(tweetURL)
-    },
-
-    shareLinkedIn() {
-      var linkedInPostURL =
-        'https://www.linkedin.com/shareArticle/?mini=true&url=' + location.href
-      this.PopupCenter(linkedInPostURL, 500, 500)
-    },
+  head() {
+    return {
+      title: this.page.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.page.teaser,
+        },
+      ],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: `https://blog.problem2value.com/${this.$route.params.slug}`,
+        },
+      ],
+    }
   },
 }
 </script>
 
-<style></style>
+<style lang="postcss" scoped>
+.title {
+  font-size: 2.1428571em;
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65ch;
+}
+</style>

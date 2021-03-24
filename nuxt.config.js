@@ -4,20 +4,83 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'P2V-Blog',
+    title: 'P2V Blog',
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Problem2Value is an innovation Training, Facilitation and Staffing agency. We offer a 1-day Innovation Bootcamp training, Research, Concept and MVP Packages as well as UX and IT Staffing. This our space to share our opinion and ideas around innovation as well as distributed and remote work.',
+      },
+      // Social sharing content
+      { property: 'og:site_name', content: 'P2V Blog' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://blog.problem2value.com',
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'P2V Blog',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          'Problem2Value is an innovation Training, Facilitation and Staffing agency. We offer a 1-day Innovation Bootcamp training, Research, Concept and MVP Packages as well as UX and IT Staffing. This our space to share our opinion and ideas around innovation as well as distributed and remote work.',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://blog.problem2value.com/p2vblog-card.png',
+      },
+      { name: 'twitter:site', content: '@geertwlclaes' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      {
+        hid: 'twitter:url',
+        name: 'twitter:url',
+        content: 'https://problem2value.com',
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Problem2Value',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          'The Problem2Value space to share our opinion and ideas around innovation as well as distributed and remote work.',
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://blog.problem2value.com/p2vblog-card.png',
+      },
     ],
+
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['~/assets/css/main'],
+
+  colorMode: {
+    preference: 'dark', // default value of $colorMode.preference
+    fallback: 'system', // fallback value if not system preference found
+    classSuffix: '',
+  },
+
+  router: {
+    linkExactActiveClass: 'text-primary',
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -29,7 +92,14 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
+    '@nuxtjs/svg',
   ],
+
+  // Tailwind Just-In-Time
+  tailwindcss: {
+    jit: true,
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

@@ -1,8 +1,5 @@
 <template>
-  <section
-    id="hero"
-    class="bg-purple-300 dark:bg-gray-800 text-gray-700 dark:text-white"
-  >
+  <div id="hero" class="">
     <div
       class="container mx-auto flex px-5 pt-20 pb-10 md:flex-row flex-col items-center"
     >
@@ -13,13 +10,9 @@
           <h1 class="text-5xl mb-4 font-bold">From Problem to Value</h1>
           <p class="my-10 leading-relaxed text-2xl">
             Opinions and thoughts since 2017 on
-            <span class="text-3xl text-purple-700 dark:text-purple-500"
-              >Innovation</span
-            >
+            <span class="text-3xl">Innovation</span>
             as well as distributed or
-            <span class="text-3xl text-purple-700 dark:text-purple-500"
-              >Remote Work</span
-            >
+            <span class="text-3xl">Remote Work</span>
           </p>
           <p class="text-base italic">
             No specific methodologies, frameworks & techniques and a clear focus
@@ -27,7 +20,7 @@
           </p>
         </div>
 
-        <div class="flex w-full flex-col">
+        <!-- <div class="flex w-full flex-col">
           <p class="flex justify-left px-auto mt-10 mb-3 text-xs">
             by the founders of:
           </p>
@@ -51,7 +44,7 @@
               />
             </button>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="lg:w-1/2 md:w-1/2">
         <img
@@ -61,7 +54,7 @@
         />
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
