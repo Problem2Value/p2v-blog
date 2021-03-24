@@ -9,11 +9,11 @@ export default {
       type: String,
       required: true,
     },
-    description: {
+    teaser: {
       type: String,
       required: true,
     },
-    image: {
+    thumbnail: {
       type: String,
       default: 'https://blog.problem2value.com/p2vblog-card.png',
     },
