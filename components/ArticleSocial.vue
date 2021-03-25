@@ -35,7 +35,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: this.thumbnail,
+          content: 'https://blog.problem2value.com' + this.thumbnail,
         },
         {
           hid: 'twitter:image:alt',
@@ -55,12 +55,12 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: this.thumbnail,
+          content: 'https://blog.problem2value.com' + this.thumbnail,
         },
         {
           hid: 'og:image:secure_url',
           property: 'og:image:secure_url',
-          content: this.thumbnail,
+          content: 'https://blog.problem2value.com' + this.thumbnail,
         },
         {
           hid: 'og:image:alt',
