@@ -8,11 +8,11 @@
     <div class="mx-auto">
       <!-- <SearchInput search-item="articles" /> -->
       <!-- <AppBreadCrumb link="blog" :title="page.title" /> -->
-      <article class="md:p-8 prose prose-md lg:prose-lg mx-auto">
-        <h1 class="pb-10">
-          {{ page.title }}
-        </h1>
 
+      <h1 class="pt-10 text-5xl font-bold text-purple-600">
+        {{ page.title }}
+      </h1>
+      <article class="md:p-8 prose prose-md lg:prose-lg mx-auto">
         <nuxt-content :document="page" class="" />
       </article>
       <h3 class="border-solid border-t-4 border-gray-600 pt-4">

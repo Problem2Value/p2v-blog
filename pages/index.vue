@@ -8,14 +8,14 @@
       <div v-for="(tag, i) in tags" :key="i" class="px-2">
         <div
           v-if="tag == selectedTag"
-          class="sm:w-auto flex-1 text-center bg-purple-500 hover:bg-purple-600 text-white text-lg py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
+          class="w-40 text-sm text-center bg-purple-500 hover:bg-purple-600 text-white py-2 px-3 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
           @click="FilterBlogByType(tag)"
         >
           {{ tag }}
         </div>
         <div
           v-else
-          class="sm:w-auto flex-1 text-center bg-transparent hover:bg-purple-400 text-purple-600 hover:text-white text-lg py-3 px-6 border border-purple-600 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
+          class="w-40 text-sm text-center bg-transparent hover:bg-purple-400 text-purple-600 hover:text-white hover:cursor-pointer py-2 px-3 border border-purple-600 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
           @click="FilterBlogByType(tag)"
         >
           {{ tag }}
@@ -28,13 +28,19 @@
     </div>
 
     <!-- Get the articles -->
-    <div id="blog-articles" class="pt-10">
+    <div id="blog-articles" class="pt-5">
       <div class="container mx-auto">
         <div
-          class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none"
+          class="mt-6 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none"
         >
-          <div v-for="article of blogList" :key="article.slug">
-            <TheArticleCard :item="article" />
+          <div
+            v-for="article of blogList"
+            :key="article.slug"
+            class="flex flex-grow rounded-lg shadow-lg bg-white overflow-hidden"
+          >
+            <NuxtLink :to="`/blog/${article.slug}`" class="hover:animate-pulse">
+              <TheArticleCard :item="article" />
+            </NuxtLink>
           </div>
           <!-- <div
             v-for="article of articles"
@@ -147,20 +153,4 @@ export default {
 }
 </script>
 
-<style scoped>
-.btn {
-  --bg-opacity: 1;
-  background-color: #d8002d;
-  background-color: rgba(216, 0, 45, var(--bg-opacity));
-  --text-opacity: 1;
-  color: #fff;
-  color: rgba(255, 255, 255, var(--text-opacity));
-  padding: 0.5rem;
-  border-radius: 0.25rem;
-  --border-opacity: 1;
-  border: 2px solid #d8002d;
-  border-color: rgba(216, 0, 45, var(--border-opacity));
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-}
-</style>
+<style scoped></style>
