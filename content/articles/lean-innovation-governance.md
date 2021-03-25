@@ -91,5 +91,3 @@ Figure 7: Do/Learn-Decide — Retire
 ![](/img/lgdolearnloopsdetail.png)
 
 _Some of the icons used in the graphics are from [Icons8](https://icons8.com/)_
-
-## [Geert Claes](https://geertwlclaes.medium.com/?source=post_sidebar--------------------------post_sidebar-----------)

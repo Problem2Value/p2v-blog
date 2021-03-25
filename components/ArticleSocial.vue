@@ -16,7 +16,6 @@ export default {
     thumbnail: {
       type: String,
       required: true,
-      // default: 'https://blog.problem2value.com/p2vblog-card.png',
     },
   },
 

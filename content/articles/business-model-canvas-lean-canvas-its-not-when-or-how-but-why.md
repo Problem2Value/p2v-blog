@@ -34,8 +34,6 @@ There is no one single solution or process that guarantees success, but innovati
 
 ![](/img/onepagesprocess.png)
 
-Innovation Stages
-
 ## 1. Idea Spark
 
 Innovation starts when someone has identified a problem they feel needs to be tackled. They have an ambitious vision of what the world would look like once this problem is solved and more often than not, this person already has an idea for a solution on how to solve the problem.
@@ -86,8 +84,8 @@ The “Business Plan Blueprint” has the following 6 key components:
 6. Support, what are you asking?
 
 > Note: for an indirect or platform business model your “1. Purpose” must be clear on the problem and solution for both parties (e.g. Uber solves a different problem for the driver and the passenger, AirBnB solves a different problem for the host and guest).
->
-> ![](/img/onepagespitchmapping.png)
+
+![](/img/onepagespitchmapping.png)
 
 Business Plan Blueprint boxes to Pitch-Deck slides mapping
 

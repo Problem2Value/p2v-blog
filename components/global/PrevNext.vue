@@ -1,6 +1,6 @@
 <template>
-  <div class="flex items-stretch mt-150 justify-between">
-    <div class="w-1/6 flex">
+  <div class="flex flex-wrap items-stretch mt-150 justify-between">
+    <div class="w-30 flex">
       <NuxtLink
         v-if="prev"
         :to="{ name: 'blog-slug', params: { slug: prev.slug } }"
@@ -10,7 +10,7 @@
       </NuxtLink>
       <span v-else>&nbsp;</span>
     </div>
-    <div class="w-1/6 flex">
+    <div class="w-30 flex">
       <NuxtLink
         v-if="next"
         :to="{ name: 'blog-slug', params: { slug: next.slug } }"
