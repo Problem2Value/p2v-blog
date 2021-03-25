@@ -2,7 +2,7 @@
   <div>
     <BlogHero />
 
-    <!-- <ArticleSocial :title="title" :teaser="teaser" :thumbnail="thumbnail" /> -->
+    <ArticleSocial :title="title" :teaser="teaser" :thumbnail="thumbnail" />
 
     <div class="flex flex-wrap mt-8 justify-center">
       <div v-for="(tag, i) in tags" :key="i" class="px-2">
@@ -152,5 +152,3 @@ export default {
   },
 }
 </script>
-
-<style scoped></style>

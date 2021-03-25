@@ -3,7 +3,7 @@ title: When, which … Design Thinking, Lean, Design Sprint, Agile?
 date: 2017-10-03T12:42:00.000Z
 teaser: A lot of people are — understandably so — very confused when it comes to
   innovation methodologies, frameworks, and techniques
-thumbnail: https://blog.problem2value.com/img/innovationspectrum.png
+thumbnail: /img/innovationspectrum.png
 tags: [Innovation, All]
 ---
 
