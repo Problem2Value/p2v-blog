@@ -2,13 +2,28 @@
   <div>
     <BlogHero />
 
-    <ArticleSocial :title="title" :description="description" :image="image" />
+    <!-- <ArticleSocial :title="title" :teaser="teaser" :thumbnail="thumbnail" /> -->
 
-    <div class="buttons flex flex-wrap mt-8 justify-center">
-      <div v-for="(tag, i) in tags" :key="i">
+    <div class="flex flex-wrap mt-8 justify-center">
+      <div v-for="(tag, i) in tags" :key="i" class="px-2">
+        <div
+          v-if="tag == selectedTag"
+          class="sm:w-auto flex-1 text-center bg-purple-500 hover:bg-purple-600 text-white text-lg font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
+          @click="FilterBlogByType(tag)"
+        >
+          {{ tag }}
+        </div>
+        <div
+          v-else
+          class="sm:w-auto flex-1 text-center bg-purple-100 hover:bg-purple-600 text-white text-lg font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
+          @click="FilterBlogByType(tag)"
+        >
+          {{ tag }}
+        </div>
+        <!-- 
         <button class="btn" @click="FilterBlogByType(tag)">
           {{ tag }}
-        </button>
+        </button> -->
       </div>
     </div>
 
@@ -101,9 +116,9 @@ export default {
       selectedTag: 'All',
       tags: ['Innovation', 'Remote Work', 'All'],
       title: 'Welcome to the P2V blog',
-      description:
+      teaser:
         'On our P2V Blog we share our opinions and ideas around various innovation methodologies, frameworks and techniques as well as anything related to distributed or remote work.',
-      image: 'https://blog.problem2value.com/p2vblog-card.png',
+      thumbnail: 'https://blog.problem2value.com/p2vblog-card.png',
     }
   },
   head() {
@@ -113,7 +128,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.description,
+          content: this.teaser,
         },
       ],
     }
