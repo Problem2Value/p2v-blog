@@ -8,14 +8,14 @@
       <div v-for="(tag, i) in tags" :key="i" class="px-2">
         <div
           v-if="tag == selectedTag"
-          class="sm:w-auto flex-1 text-center bg-purple-500 hover:bg-purple-600 text-white text-lg font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
+          class="sm:w-auto flex-1 text-center bg-purple-500 hover:bg-purple-600 text-white text-lg py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
           @click="FilterBlogByType(tag)"
         >
           {{ tag }}
         </div>
         <div
           v-else
-          class="sm:w-auto flex-1 text-center bg-transparent hover:bg-purple-600 text-purple-600 text-lg font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
+          class="sm:w-auto flex-1 text-center bg-transparent hover:bg-purple-400 text-purple-600 hover:text-white text-lg py-3 px-6 border border-purple-600 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
           @click="FilterBlogByType(tag)"
         >
           {{ tag }}
