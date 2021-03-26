@@ -73,18 +73,3 @@ export default {
   },
 }
 </script>
-
-//
-<style lang="postcss" scoped>
-// .title {
-//   font-size: 2.1428571em;
-//   margin-top: 0;
-//   margin-bottom: 0.8em;
-//   line-height: 1.2;
-//   font-weight: 800;
-//   margin-left: auto;
-//   margin-right: auto;
-//   max-width: 65ch;
-// }
-//
-</style>
