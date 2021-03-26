@@ -110,8 +110,8 @@ export default {
 
   // Google Tag Manager
   gtm: {
-    id: 'GTM-K246Q8J'
-  }
+    id: 'GTM-K246Q8J',
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
