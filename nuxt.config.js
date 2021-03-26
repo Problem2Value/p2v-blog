@@ -17,14 +17,14 @@ export default {
         content:
           'Problem2Value is an innovation Training, Facilitation and Staffing agency. We offer a 1-day Innovation Bootcamp training, Research, Concept and MVP Packages as well as UX and IT Staffing. This our space to share our opinion and ideas around innovation as well as distributed and remote work.',
       },
-      // // Social sharing content
-      // { property: 'og:site_name', content: 'P2V Blog' },
-      // { hid: 'og:type', property: 'og:type', content: 'website' },
-      // {
-      //   hid: 'og:url',
-      //   property: 'og:url',
-      //   content: 'https://blog.problem2value.com',
-      // },
+      // Social sharing content
+      { property: 'og:site_name', content: 'P2V Blog' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://blog.problem2value.com',
+      },
       // {
       //   hid: 'og:title',
       //   property: 'og:title',
@@ -41,8 +41,8 @@ export default {
       //   property: 'og:image',
       //   content: '/p2vblog-card.png',
       // },
-      // { name: 'twitter:site', content: '@geertwlclaes' },
-      // { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@geertwlclaes' },
+      { name: 'twitter:card', content: 'summary_large_image' },
       // {
       //   hid: 'twitter:url',
       //   name: 'twitter:url',
