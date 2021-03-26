@@ -1,5 +1,5 @@
 <template>
-  <div class="flex mt-4">
+  <div class="">
     <ArticleSocial
       :title="page.title"
       :teaser="page.teaser"
@@ -9,10 +9,11 @@
       <!-- <SearchInput search-item="articles" /> -->
       <!-- <AppBreadCrumb link="blog" :title="page.title" /> -->
 
-      <h1 class="pt-10 text-5xl font-bold text-purple-600">
-        {{ page.title }}
-      </h1>
-      <article class="md:p-8 prose prose-md lg:prose-lg mx-auto">
+      <article class="mx-auto md:p-8 prose prose-md lg:prose-lg">
+        <h1 class="title">
+          {{ page.title }}
+        </h1>
+
         <nuxt-content :document="page" class="" />
       </article>
       <h3 class="border-solid border-t-4 border-gray-600 pt-4">
@@ -73,3 +74,17 @@ export default {
   },
 }
 </script>
+
+<style lang="postcss" scoped>
+.title {
+  font-size: 3em;
+  color: #7c3aed;
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75ch;
+}
+</style>

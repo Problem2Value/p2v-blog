@@ -1,9 +1,9 @@
 <template>
   <div class="sticky w-full top-0 z-10 bg-dark py-6">
     <div
-      class="container mx-auto flex p-5 flex-col md:flex-row flex-nowrap items-center"
+      class="container flex flex-col md:flex-row md:justify-between p-5 items-center"
     >
-      <div class="flex lg:w-2/5">
+      <div class="flex">
         <a href="/" class="flex flex-row font-medium items-center mb-4 md:mb-0">
           <div class="width:48px height:48px mr-3">
             <svg
@@ -33,7 +33,7 @@
           <span class="text-4xl font-bold text-white">P2V Blog</span>
         </a>
       </div>
-      <div class="flex justify-end lg:w-3/5">
+      <div class="flex">
         <nav class="flex">
           <a
             href="https://problem2value.com"

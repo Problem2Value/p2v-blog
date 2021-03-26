@@ -5,7 +5,7 @@
     <ArticleSocial :title="title" :teaser="teaser" :thumbnail="thumbnail" />
 
     <div class="flex flex-wrap mt-8 justify-center">
-      <div v-for="(tag, i) in tags" :key="i" class="px-2">
+      <div v-for="(tag, i) in tags" :key="i" class="px-2 py-2">
         <div
           v-if="tag == selectedTag"
           class="w-40 text-sm text-center bg-purple-500 hover:bg-purple-600 text-white py-2 px-3 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
