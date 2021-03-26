@@ -25,21 +25,25 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
+          property: 'twitter:title',
           content: this.title,
         },
         {
           hid: 'twitter:description',
           name: 'twitter:description',
+          property: 'twitter:description',
           content: this.teaser,
         },
         {
           hid: 'twitter:image',
           name: 'twitter:image',
+          property: 'twitter:image',
           content: 'https://blog.problem2value.com' + this.thumbnail,
         },
         {
           hid: 'twitter:image:alt',
           name: 'twitter:image:alt',
+          property: 'twitter:image:alt',
           content: this.title,
         },
         {
