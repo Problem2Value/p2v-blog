@@ -39,7 +39,7 @@ export default {
       // {
       //   hid: 'og:image',
       //   property: 'og:image',
-      //   content: 'https://blog.problem2value.com/p2vblog-card.png',
+      //   content: '/p2vblog-card.png',
       // },
       // { name: 'twitter:site', content: '@geertwlclaes' },
       // { name: 'twitter:card', content: 'summary_large_image' },
@@ -62,7 +62,7 @@ export default {
       // {
       //   hid: 'twitter:image',
       //   name: 'twitter:image',
-      //   content: 'https://blog.problem2value.com/p2vblog-card.png',
+      //   content: '/p2vblog-card.png',
       // },
     ],
 
@@ -105,7 +105,13 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/gtm',
   ],
+
+  // Google Tag Manager
+  gtm: {
+    id: 'GTM-K246Q8J'
+  }
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},

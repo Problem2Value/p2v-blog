@@ -124,7 +124,7 @@ export default {
       title: 'Welcome to the P2V blog',
       teaser:
         'On our P2V Blog we share our opinions and ideas around various innovation methodologies, frameworks and techniques as well as anything related to distributed or remote work.',
-      thumbnail: 'https://blog.problem2value.com/p2vblog-card.png',
+      thumbnail: '/p2vblog-card.png',
     }
   },
   head() {
