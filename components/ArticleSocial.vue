@@ -76,6 +76,12 @@ export default {
           property: 'og:image:alt',
           content: this.title,
         },
+        {
+          hid: 'og:author',
+          name: 'og:author',
+          property: 'og:author',
+          content: 'Problem2Value',
+        },
       ],
     }
   },
