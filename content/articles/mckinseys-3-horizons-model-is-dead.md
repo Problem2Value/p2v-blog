@@ -1,7 +1,7 @@
 ---
 title: McKinsey’s 3 horizons model is dead
 date: 2019-09-02T12:42:00.000Z
-teaser: Not all “innovation” is the same ... nut the 3 horizon model no longer appiles
+teaser: Not all “innovation” is the same ... but the 3 horizon model no longer applies
 thumbnail: /img/3hsobsolete.png
 tags: [Innovation, All]
 ---
