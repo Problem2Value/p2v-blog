@@ -2,8 +2,15 @@
 title: Remote Work in Europe ... 3 Tips
 date: 2021-03-30T12:42:00.000Z
 teaser: Three tips on how to make the new way of working a success in Europe
+<<<<<<< HEAD
 thumbnail: /img/thumbnail-homeoffice.png
 tags: [Remote Work, All]
+=======
+thumbnail: /img/homeoffice.jpg
+tags:
+  - Remote Work
+  - All
+>>>>>>> 4462e9d2912dfc83c46960b6f02dd3cd90a6e647
 ---
 
 The last 12 months has forced a new way of working upon many of us. With offices closed down, almost everyone has been working remotely. There are plenty of teams with proven practices on how to make a distributed workplace work.
