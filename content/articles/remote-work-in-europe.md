@@ -46,4 +46,4 @@ Distributed work relies more on written, versioned, English documentation to ena
 
 ## Conclusion
 
-These are obviously many other aspects to consider. One thing that is very clear however is that copying how things have always been done onto a distributed workplace is not the solution.
+These are obviously many other aspects to consider. However, one thing is very clear: copying how things have always been done needs to change for an effective distributed workplace.
