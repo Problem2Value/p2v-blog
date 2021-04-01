@@ -6,33 +6,33 @@ thumbnail: /img/thumbnail-homeoffice.png
 tags: [Remote Work, All]
 ---
 
-The last 12 months has forced a new way of working upon many of us. With offices closed down, almost everyone has been working remotely. There are plenty of teams with proven practices on how to make a distributed workplace work.
+The last 12 months has forced a new way of working upon many of us. With offices closed down, almost everyone has been working remotely. However, there are plenty of teams with tried, tested and proven practices which really help to make a distributed workplace a success.
 
-Here are three tips for organisations that are transitioning to a distributed workplace:
+Here are three tips to boost transitioning to a distributed workplace:
 
 ## 1. Stop the Busy-ness
 
 ![CalendarTetris](/img/CalendarTetris.png)
 
-Replace the "time spent at the office" with judging, measuring and rewarding the actual value of the work. Without any strict "office hours", workers will no longer need to fill their days with stuff just to appear busy all the time. With everyone acting busy, many offices have always been a place of distractions where it was near impossible to get actual stuff done.
+Replace the "time spent at the office" with judging, measuring and rewarding the actual value of the work. Without any strict "office hours", workers will no longer need to fill their days with stuff just to appear busy all the time. With everyone acting busy, many offices have often been a place of distractions where it was near impossible to get actual stuff done.
 
-Make a clear switch by firmly putting the focus on tasks rather than time. Everyone’s calendar should be private, to avoid replicating this busy-ness, calendar tetris game in a distributed workplace. Do not pad pad calendars with Zoom meetings, instead share task lists to show who is working on what.
+Make a clear switch by firmly putting the focus on tasks rather than time. Everyone’s calendar should be private, to avoid replicating this busy-ness, calendar-tetris game in a distributed workplace. Avoid padding calendars with Zoom meetings, instead share task lists to show who is working on what.
 
-The Open Source world is a good example because they have always worked in a distributed way. Tasks are prioritised, shared and assigned to collaborators, the workers.
+The Open Source world is a perfect example because most of them have always worked in a distributed way. Tasks are prioritised, shared and picked up by collaborators, the workers.
 
-An unfortunate side effect with a lack of clear office hours is that some people are actually working longer and risk burning out. So, set shared working hours and never expect or contact people outside these to allow and encourage people to truly switch off.
+Note: an unfortunate side-effect with a lack of clear office hours is that some people are actually working longer and risk burning out. So, set shared working hours and never expect or contact people outside these time blocks to allow and encourage everyone to truly switch off!
 
 ## 2. Support Hybrid Workplaces
 
 ![Coworking](/img/Coworking.png)
 
-It appears that workers enjoy working from home and many have indicated they will prefer to continue to do so even after offices are allowed to open up again. The time and energy saved by avoiding a daily commute to the office has been a blessing. Productivity has also shown that for most things it doesn't matter where the work is done. Companies will need to seriously rethink not only how much office space they need, but also where space is needed and what functions these spaces should serve.
+It appears that workers enjoy working from home and many have indicated they will prefer to continue to do so even after offices are allowed to open up again. The time and energy saved by avoiding a daily commute to the office has been a real blessing. Productivity analysis has shown that for most things it doesn't matter at all where the work is done.
 
-Provide access to satellite offices closer to where workers live or grant access to co-working spaces. Especially for those who don't have a quiet, dedicated work space at home.
+Companies will need to rethink not just how much office space they need, but more importantly where working spaces are needed and what functions these spaces should serve. Support people who have the room at their home with adequate equipment for their home office. Provide those who lack a quiet dedicated space at home with the option to go to satellite offices closer to where they live, or grant access to co-working spaces.
 
-Whilst most work can be perfectly done remotely, being in the same room will greatly benefit certain work activities. Repurpose some office space for these types of group activities.
+Whilst most work can be perfectly done remotely, being in the same room will greatly benefit certain work activities. Repurpose some office space specifially for these types of group activities.
 
-The workplace is for many also a place to connect socially with colleagues. Get teams together in-person on a regular basis. A strong personal connection between team members builds trust and boosts future virtual collaboration. Since a lot of work is done remotely, these get-togethers should focus on team building and having a bit of fun.
+The workplace is for many also a place to connect socially with colleagues. Make sure to get teams together in-person on a regular basis. A strong personal connection between team members builds trust and boosts future virtual collaboration. Since a lot of work is done remotely, these get-togethers should not just be about work. Place the focus on team building and having a bit of fun.
 
 ## 3. Embrace Diversity
 
@@ -44,6 +44,6 @@ Europe is a melting pot of rich cultures a numerous languages. Many professional
 
 Distributed work relies more on written, versioned, English documentation to enable asynchronous work. This documentation has the added benefit of providing a transparent record what work was done, when and by whom. A transparent document trail also shows what information was available at the time of a decision, reducing any bias in retrospectives.
 
-## Conclusion
+## What's next?
 
-These are obviously many other aspects to consider. However, one thing is very clear: copying how things have always been done needs to change for an effective distributed workplace.
+These are obviously many other aspects to consider. However, one thing is very clear: copying how things have always been done really needs to change for an effective distributed workplace.
