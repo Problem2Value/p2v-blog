@@ -5,25 +5,21 @@
     <ArticleSocial :title="title" :teaser="teaser" :thumbnail="thumbnail" />
 
     <div class="flex flex-wrap mt-8 justify-center">
-      <div v-for="(tag, i) in tags" :key="i" class="px-2 py-2">
+      <div v-for="(tag, i) in filterTags" :key="i" class="px-2 py-2">
         <div
-          v-if="tag == selectedTag"
+          v-if="tag.tag == selectedTag"
           class="w-40 text-sm text-center bg-purple-500 hover:bg-purple-600 text-white py-2 px-3 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
-          @click="FilterBlogByType(tag)"
+          @click="FilterBlogByType(tag.tag)"
         >
-          {{ tag }}
+          {{ tag.name }}
         </div>
         <div
           v-else
           class="w-40 text-sm text-center bg-transparent hover:bg-purple-400 text-purple-600 hover:text-white hover:cursor-pointer py-2 px-3 border border-purple-600 rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
-          @click="FilterBlogByType(tag)"
+          @click="FilterBlogByType(tag.tag)"
         >
-          {{ tag }}
+          {{ tag.name }}
         </div>
-        <!-- 
-        <button class="btn" @click="FilterBlogByType(tag)">
-          {{ tag }}
-        </button> -->
       </div>
     </div>
 
@@ -119,8 +115,14 @@ export default {
   },
   data() {
     return {
+      // selectedTag: this.filterTag,
       selectedTag: 'All',
-      tags: ['Innovation', 'Remote Work', 'All'],
+      filterTags: [
+        { name: 'Innovation', tag: 'Innovation' },
+        { name: 'Remote Work', tag: 'Remote' },
+        { name: 'All', tag: 'All' },
+      ],
+
       title: 'Welcome to the P2V blog',
       teaser:
         'On our P2V Blog we share our opinions and ideas around various innovation methodologies, frameworks and techniques as well as anything related to distributed or remote work.',
@@ -142,6 +144,10 @@ export default {
 
   computed: {
     blogList() {
+      console.log('FilterTag: ' + this.$route.query.tag)
+      if (this.$route.query.tag) {
+        this.selectedTag = this.$route.query.tag
+      }
       return this.articles.filter((el) => el.tags.includes(this.selectedTag))
     },
   },
