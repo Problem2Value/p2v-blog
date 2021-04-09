@@ -3,7 +3,7 @@ title: Lean Innovation Governance
 date: 2019-06-24T12:42:00.000Z
 teaser: A better way to visualise and manage the innovation funnel
 thumbnail: /img/lgdolearnloops.png
-tags: [Innovation, All]
+tags: [innovation, all]
 ---
 
 # The old plan-invest-execute process

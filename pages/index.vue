@@ -147,8 +147,11 @@ export default {
       console.log('FilterTag: ' + this.$route.query.tag)
       if (this.$route.query.tag) {
         this.selectedTag = this.$route.query.tag
+        history.pushState({}, null, this.$route.path)
       }
-      return this.articles.filter((el) => el.tags.includes(this.selectedTag))
+      return this.articles.filter((el) =>
+        el.tags.includes(this.selectedTag.toLowerCase())
+      )
     },
   },
   methods: {

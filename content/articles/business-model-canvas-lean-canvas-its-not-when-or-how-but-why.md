@@ -3,7 +3,7 @@ title: Business Model Canvas? Lean Canvas? It’s not when or how … but why!
 date: 2019-01-17T13:42:00.000Z
 teaser: One page business plan? Which one and why?
 thumbnail: /img/onepagesoptions.png
-tags: [Innovation, All]
+tags: [innovation, all]
 ---
 
 # One page business plan

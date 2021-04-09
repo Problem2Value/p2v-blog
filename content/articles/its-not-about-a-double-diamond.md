@@ -3,7 +3,7 @@ title: It’s NOT about a “Double” Diamond
 date: 2020-02-05T13:42:00.000Z
 teaser: It takes (a lot) more than 2 diamonds to bring an idea to life!
 thumbnail: /img/ddfocusarea.png
-tags: [Innovation, All]
+tags: [innovation, all]
 ---
 
 ## Double Diamond

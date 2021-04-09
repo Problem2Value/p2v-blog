@@ -4,7 +4,7 @@ date: 2017-10-03T12:42:00.000Z
 teaser: A lot of people are — understandably so — very confused when it comes to
   innovation methodologies, frameworks, and techniques
 thumbnail: /img/innovationspectrum.png
-tags: [Innovation, All]
+tags: [innovation, all]
 ---
 
 # Confusion galore!

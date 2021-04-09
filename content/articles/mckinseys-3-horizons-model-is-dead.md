@@ -3,7 +3,7 @@ title: McKinsey’s 3 horizons model is dead
 date: 2019-09-02T12:42:00.000Z
 teaser: Not all “innovation” is the same ... but the 3 horizon model no longer applies
 thumbnail: /img/3hsobsolete.png
-tags: [Innovation, All]
+tags: [innovation, all]
 ---
 
 About 10 years ago the book [The Alchemy of Growth](https://books.google.de/books/about/The_Alchemy_Of_Growth.html?id=F5RxQgAACAAJ) introduced the 3 horizon model, which has since often been referred to as the [McKinsey 3 horizons of innovation](https://www.mckinsey.com/business-functions/strategy-and-corporate-finance/our-insights/enduring-ideas-the-three-horizons-of-growth). Credit where credit’s due, because the 3 horizon model has done a great job in highlighting that not all “innovation” is the same.

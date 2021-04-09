@@ -4,7 +4,7 @@ date: 2018-08-15T12:42:00.000Z
 teaser: The traditional big “Business Case” documents are usually no longer
   required … but a “business plan” is still paramount.
 thumbnail: /img/qsproblemsolutionspace.png
-tags: [Innovation, All]
+tags: [innovation, all]
 ---
 
 Thanks to the popularity of Lean Startup, the traditional big “Business Case” documents are usually no longer required … but a “business plan” is still paramount.

@@ -4,7 +4,7 @@ date: 2017-12-11T13:42:00.000Z
 teaser: Where to start and how to transition between various innovation
   methodologies depends on where a product sits along its product lifecycle.
 thumbnail: /img/productjourney.png
-tags: [Innovation, All]
+tags: [innovation, all]
 ---
 
 —Update > Aften some testing I have come up with an alternative version: <https://medium.com/@geertwlclaes/what-is-your-business-plan-blueprint-3a4dd37d4fb0>

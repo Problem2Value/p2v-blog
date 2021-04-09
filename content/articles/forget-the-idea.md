@@ -3,7 +3,7 @@ title: Forget the idea …
 date: 2021-01-12T16:00:26.185Z
 teaser: … everything begins with a problem
 thumbnail: /img/ideaspectrum.png
-tags: [Innovation, All]
+tags: [innovation, all]
 ---
 
 … everything begins with a problem
