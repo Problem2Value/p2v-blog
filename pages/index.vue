@@ -7,7 +7,7 @@
     <div class="flex flex-wrap mt-8 justify-center">
       <div v-for="(tag, i) in filterTags" :key="i" class="px-2 py-2">
         <div
-          v-if="tag.tag == selectedTag"
+          v-if="tag.tag.toLowerCase() == selectedTag.toLowerCase()"
           class="w-40 text-sm text-center bg-purple-500 hover:bg-purple-600 text-white py-2 px-3 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
           @click="FilterBlogByType(tag.tag)"
         >
@@ -118,9 +118,9 @@ export default {
       // selectedTag: this.filterTag,
       selectedTag: 'All',
       filterTags: [
-        { name: 'Innovation', tag: 'Innovation' },
-        { name: 'Remote Work', tag: 'Remote' },
-        { name: 'All', tag: 'All' },
+        { name: 'Innovation', tag: 'innovation' },
+        { name: 'Remote Work', tag: 'remote' },
+        { name: 'All', tag: 'all' },
       ],
 
       title: 'Welcome to the P2V blog',
