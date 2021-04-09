@@ -1,6 +1,6 @@
 ---
 title: Remote Work in Europe ... 3 Tips
-date: 2021-03-30T12:42:00.000Z
+date: 2021-04-09T12:42:00.000Z
 teaser: Three tips on how to make the new way of working a success in Europe
 thumbnail: /img/thumbnail-homeoffice.png
 tags: [remote, all]

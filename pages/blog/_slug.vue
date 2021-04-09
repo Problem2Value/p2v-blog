@@ -9,10 +9,15 @@
       <!-- <SearchInput search-item="articles" /> -->
       <!-- <AppBreadCrumb link="blog" :title="page.title" /> -->
 
+      <!-- <div class="flex text-sm leading-5 text-gray-500">
+        {{ formatDate(item.date) }}
+      </div> -->
+
       <article class="mx-auto md:p-8 prose prose-md lg:prose-lg">
         <h1 class="title">
           {{ page.title }}
         </h1>
+        <reading-time :content="page"></reading-time>
 
         <nuxt-content :document="page" class="" />
       </article>
@@ -43,13 +48,10 @@ export default {
       .surround(slug)
       .fetch()
 
-    // const stats = readingTime(page.readingTime)
-
     return {
       page,
       prev,
       next,
-      // stats,
       articles,
     }
   },
