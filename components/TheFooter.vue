@@ -43,23 +43,28 @@
             <h2 class="text-base tracking-widest mb-3">IT Hires Europe</h2>
             <nav class="list-none mb-10">
               <li class="text-sm font-light">
-                <a href="https://ithiresv2.webflow.io/how-we-work" class=""
+                <a href="https://www.it-hires.eu/developers.html" class=""
+                  >Developers</a
+                >
+              </li>
+              <li class="text-sm font-light">
+                <a href="https://www.it-hires.eu/testers.html" class=""
+                  >Testers</a
+                >
+              </li>
+              <li class="text-sm font-light">
+                <a href="https://www.it-hires.eu/designers.html" class=""
+                  >Designers</a
+                >
+              </li>
+              <li class="text-sm font-light">
+                <a href="https://www.it-hires.eu/how-we-work.html" class=""
                   >How We Work</a
                 >
               </li>
               <li class="text-sm font-light">
-                <a href="https://ithiresv2.webflow.io/our-developers" class=""
-                  >Remote Developers</a
-                >
-              </li>
-              <li class="text-sm font-light">
-                <a href="https://ithiresv2.webflow.io/our-testers" class=""
-                  >Remote Testers</a
-                >
-              </li>
-              <li class="text-sm font-light">
-                <a href="https://ithiresv2.webflow.io/our-designers" class=""
-                  >Remote Designers</a
+                <a href="https://www.it-hires.eu/our-mission.html" class=""
+                  >Our Mission</a
                 >
               </li>
             </nav>
