@@ -30,8 +30,6 @@
 </template>
 
 <script>
-const readingTime = require('reading-time')
-
 export default {
   async asyncData({ $content, params }) {
     const slug = params.slug || 'index'
