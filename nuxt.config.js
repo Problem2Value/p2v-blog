@@ -20,11 +20,11 @@ export default {
       // Social sharing content
       { property: 'og:site_name', content: 'P2V Blog' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      {
-        hid: 'og:url',
-        property: 'og:url',
-        content: 'https://blog.problem2value.com',
-      },
+      // {
+      //   hid: 'og:url',
+      //   property: 'og:url',
+      //   content: 'https://blog.problem2value.com',
+      // },
       {
         hid: 'og:title',
         property: 'og:title',
