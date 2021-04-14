@@ -30,17 +30,17 @@ export default {
         property: 'og:title',
         content: 'P2V Blog',
       },
-      {
-        hid: 'og:description',
-        property: 'og:description',
-        content:
-          'Problem2Value is an innovation Training, Facilitation and Staffing agency. We offer a 1-day Innovation Bootcamp training, Research, Concept and MVP Packages as well as UX and IT Staffing. This our space to share our opinion and ideas around innovation as well as distributed and remote work.',
-      },
-      {
-        hid: 'og:image',
-        property: 'og:image',
-        content: '/p2vblog-card.png',
-      },
+      // {
+      //   hid: 'og:description',
+      //   property: 'og:description',
+      //   content:
+      //     'Problem2Value is an innovation Training, Facilitation and Staffing agency. We offer a 1-day Innovation Bootcamp training, Research, Concept and MVP Packages as well as UX and IT Staffing. This our space to share our opinion and ideas around innovation as well as distributed and remote work.',
+      // },
+      // {
+      //   hid: 'og:image',
+      //   property: 'og:image',
+      //   content: '/p2vblog-card.png',
+      // },
       { name: 'twitter:site', content: '@geertwlclaes' },
       { name: 'twitter:card', content: 'summary_large_image' },
       {
@@ -48,22 +48,22 @@ export default {
         name: 'twitter:url',
         content: 'https://blog.problem2value.com',
       },
-      {
-        hid: 'twitter:title',
-        name: 'twitter:title',
-        content: 'Problem2Value',
-      },
-      {
-        hid: 'twitter:description',
-        name: 'twitter:description',
-        content:
-          'The Problem2Value space to share our opinion and ideas around innovation as well as distributed and remote work.',
-      },
-      {
-        hid: 'twitter:image',
-        name: 'twitter:image',
-        content: '/p2vblog-card.png',
-      },
+      // {
+      //   hid: 'twitter:title',
+      //   name: 'twitter:title',
+      //   content: 'Problem2Value',
+      // },
+      // {
+      //   hid: 'twitter:description',
+      //   name: 'twitter:description',
+      //   content:
+      //     'The Problem2Value space to share our opinion and ideas around innovation as well as distributed and remote work.',
+      // },
+      // {
+      //   hid: 'twitter:image',
+      //   name: 'twitter:image',
+      //   content: '/p2vblog-card.png',
+      // },
     ],
 
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
