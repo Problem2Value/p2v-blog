@@ -23,7 +23,7 @@ A strict rule of absolutelty no devices to maintain a strong focus (See "No lapt
 
 ![](/img/sprintnodevices.png)
 
-# Conclusion
+# Remote Work does work 
 
 Whilst we are no fans of virtual innovation workshops, we do acknowledge that many activities, especially software development, can be perfectly done remotely. There are many examples of teams which are very efficient in a remote environment.
 
@@ -32,8 +32,6 @@ Even for remote teams we believe that regular in-person social events are needed
 Team members who have met eachother at such social events have established a bond, a level of trust. Having such connections makes communication and collaboration virtually much easier.
 
 **We are looking forward to facilitate real innovation workshops again!**
-
-
 
 *Refs:*
 
